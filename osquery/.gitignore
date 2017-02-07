@@ -1,0 +1,5 @@
+$ git clone http://github.com/facebook/osquery.git
+$ cd osquery
+$ make deps
+$ make -j 8
+$ ./build/<platform>/osquery/osqueryi
